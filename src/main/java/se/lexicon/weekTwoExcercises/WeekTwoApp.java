@@ -5,6 +5,7 @@ import static se.lexicon.weekTwoExcercises.Arrays.printing;
 import static se.lexicon.weekTwoExcercises.IndexOfArray.indexOf;
 import static se.lexicon.weekTwoExcercises.SortArray.sorting;
 import static se.lexicon.weekTwoExcercises.CopyOfArray.copyingArray;
+import static se.lexicon.weekTwoExcercises.TwoDimensionalArray.assignTwoDValues;
 
 public class WeekTwoApp {
     public static void main(String[] args) {
@@ -34,7 +35,13 @@ public class WeekTwoApp {
 
         copyingArray();
         out.println("");
+        out.println("");
 
+        //5. Create a two-dimensional string array [2][2]. Assign values to the 2d array containing any Country and
+        // City. Expected output: France Paris Sweden Stockholm
+
+        assignTwoDValues();
+        out.println("");
 
 
     }
