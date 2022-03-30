@@ -6,8 +6,9 @@ import static se.lexicon.weekTwoExcercises.IndexOfArray.indexOf;
 import static se.lexicon.weekTwoExcercises.SortArray.sorting;
 import static se.lexicon.weekTwoExcercises.CopyOfArray.copyingArray;
 import static se.lexicon.weekTwoExcercises.TwoDimensionalArray.assignTwoDValues;
+import static se.lexicon.weekTwoExcercises.ArrayAverage.findAverage;
 
-public class WeekTwoApp {
+public class WeekTwoArrayApp {
     public static void main(String[] args) {
         out.println("Testing arrays");
         out.println("");
@@ -42,6 +43,11 @@ public class WeekTwoApp {
 
         assignTwoDValues();
         out.println("");
+
+        //6. Write a program which will set up an array to hold the next values in this
+        //order: 43, 5, 23, 17, 2, 14 and print the average of these 6 numbers.
+        //Expected output: Average is: 17.3
+        findAverage();
 
 
     }
