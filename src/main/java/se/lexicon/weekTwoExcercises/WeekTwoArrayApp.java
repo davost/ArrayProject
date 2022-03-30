@@ -7,6 +7,7 @@ import static se.lexicon.weekTwoExcercises.SortArray.sorting;
 import static se.lexicon.weekTwoExcercises.CopyOfArray.copyingArray;
 import static se.lexicon.weekTwoExcercises.TwoDimensionalArray.assignTwoDValues;
 import static se.lexicon.weekTwoExcercises.ArrayAverage.findAverage;
+import static se.lexicon.weekTwoExcercises.PrintingOddNumbersFromArray.printOddNumbers;
 
 public class WeekTwoArrayApp {
     public static void main(String[] args) {
@@ -47,7 +48,15 @@ public class WeekTwoArrayApp {
         //6. Write a program which will set up an array to hold the next values in this
         //order: 43, 5, 23, 17, 2, 14 and print the average of these 6 numbers.
         //Expected output: Average is: 17.3
+
         findAverage();
+        out.println("");
+        out.println("");
+
+        //7. Write a program which will set up an array to hold 10 numbers and print
+        //out only the uneven numbers. Expected output: Array: 1 2 4 7 9 12 Odd Array: 1 7 9
+        printOddNumbers();
+        out.println("");
 
 
     }
